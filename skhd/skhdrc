@@ -77,7 +77,7 @@
 # ############################################################### #
 
 # open terminal
-cmd - return : open -a "Alacritty"
+# cmd - return : open -a "Alacritty"
 
 # focus window
 alt - h : yabai -m window --focus west || yabai -m display --focus west
