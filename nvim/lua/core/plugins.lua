@@ -19,6 +19,8 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
   use 'christoomey/vim-tmux-navigator'
+  use 'mhinz/vim-signify'
+  use 'tpope/vim-fugitive'
   -- completion
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
