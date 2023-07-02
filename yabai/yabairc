@@ -11,6 +11,11 @@
 # sudo yabai --load-sa
 #
 
+# rules
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^System Information$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+
 # global settings
 yabai -m config mouse_follows_focus          off
 yabai -m config focus_follows_mouse          off
