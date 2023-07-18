@@ -80,6 +80,7 @@
 # cmd - return : open -a "Alacritty"
 ctrl + alt - n : open -na "Obsidian"
 ctrl + alt - t : open -na "Alacritty"
+ctrl + alt - b : open -na "Brave Browser.app"
 
 # focus window
 alt - h : yabai -m window --focus west || yabai -m display --focus west
